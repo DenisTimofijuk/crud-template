@@ -1,0 +1,47 @@
+# Express TypeScript Demo Project
+=============================
+
+## Overview
+-----------
+
+This project demonstrates how to set up a basic CRUD API using TypeScript with Express.js. It includes a basic server setup, TypeScript configuration, and a nodemon script for development.
+
+## Project Structure
+--------------------
+
+The project structure is as follows:
+
+* `dist/`: Compiled JavaScript files
+* `src/`: TypeScript source files
+* `package.json`: Project dependencies and scripts
+* `tsconfig.json`: TypeScript configuration file
+* `nodemon.json`: Nodemon configuration file
+
+## Dependencies
+------------
+
+* `express`: Express.js framework
+* `typescript`: TypeScript compiler
+* `ts-node`: TypeScript execution environment for Node.js
+* `dotenv`: Environment variables loader
+* `concurrently`: Run multiple commands concurrently
+
+## Setup
+-----
+
+To set up the project, follow these steps:
+
+1. Install dependencies: `npm install`
+2. Compile TypeScript files: `npm run build`
+3. Start the development server: `npm run dev`
+
+## Notes
+-----
+
+* Make sure to update the `package.json` file to point to the compiled JavaScript output (`dist/index.js`).
+* Update the `nodemon.json` file to use the `ts-node` command with the `tsconfig-paths/register` plugin.
+* Install type definitions for dependencies as needed.
+* [source](https://blog.logrocket.com/express-typescript-node/)
+
+## GitHub Template
+-----------------

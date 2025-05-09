@@ -35,6 +35,15 @@ To set up the project, follow these steps:
 2. Compile TypeScript files: `npm run build`
 3. Start the development server: `npm run dev`
 
+## Template
+-----
+Use degit to clone it as a template
+```
+npx degit denisdev/crud-template my-new-project
+cd my-new-project
+npm install
+```
+
 ## Notes
 -----
 

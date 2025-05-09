@@ -34,12 +34,13 @@ To set up the project, follow these steps:
 1. Install dependencies: `npm install`
 2. Compile TypeScript files: `npm run build`
 3. Start the development server: `npm run dev`
-
+  
 ## Template
+  
 -----
 Use degit to clone it as a template
 ```
-npx degit denisdev/crud-template my-new-project
+npx degit https://github.com/DenisTimofijuk/crud-template.git my-new-project
 cd my-new-project
 npm install
 ```
